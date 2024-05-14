@@ -37,11 +37,11 @@ function button_create(tagname, attrname1, attrval1, attrname2, attrval2, conten
 }
 
 
-var first_name = label_create("label", "for", "f_name", "FirstName");
-var middle_name = label_create("label", "for", "m_name", "MiddleName");
-var last_name = label_create("label", "for", "l_name", "LastName");
-var email_label = label_create("label", "for", "email", "Email");
-var location_label = label_create("label", "for", "location", "Location");
+var first_name = label_create("label", "for", "FirstName", "FirstName");
+var middle_name = label_create("label", "for", "MiddleName", "MiddleName");
+var last_name = label_create("label", "for", "LastName", "LastName");
+var email_label = label_create("label", "for", "Email", "Email");
+var location_label = label_create("label", "for", "Location", "Location");
 
 var break_1 = break_create();
 var break_2 = break_create();
